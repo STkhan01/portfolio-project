@@ -1,0 +1,132 @@
+@import 'utilities.css';
+:root{
+    --primary: #3dcfd3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+}
+body{
+    font-family: poppins, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiazed; 
+}
+header{
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 90%, 0% 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.left .branding img{
+    width: 20%;
+    margin-top: -7rem;
+}
+header nav .left a{
+    align-items: center;
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+header nav .left a:hover{
+    color: #3dcfd3;
+
+}
+header nav{
+    padding: 4rem 0;
+    align-items: center;
+
+}
+header nav .branding{
+    margin: 3rem;
+    align-items:center
+}
+.hero{
+    padding: 1rem 0;
+}
+.hero .left img{
+    width: 430px;
+    margin-top: -7rem;
+    height: 500px;
+}
+.hero .right{
+    color: var(--pure);
+    margin: 6px;
+    width: 50rem;
+    margin-top: -7rem;
+}
+.hero .right h5{
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 0.3rem;
+    font-weight: 200;
+}
+.hero .right h1{
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right p{
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+.hero .right .btn btn-primary{
+    margin-bottom: 5rem;
+    margin: 3rem;
+    
+}
+
+section{
+    display: flex;
+    padding: 6rem;
+}
+section.about .myimg{
+    padding-left: 2rem;
+     height: 450px;
+     width: 400px;
+     margin-right: 2rem;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: rgb(71, 71, 225);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+section.about p{
+    font-size: 0.8rem;
+    color: rgb(33, 32, 32);
+    line-height: 1,8;
+    margin-bottom: 1rem;
+}
+section.about .logo a{
+    transition: 0.3s;
+}
+section.about .logo a:hover{
+    background:rgb(71, 71, 225);
+}
+section.about .logo img{
+    width: 10%;
+    height: 10%;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+
+    
